@@ -4,16 +4,15 @@ export default function Intro() {
     return (
         <section className="section-full-ct bg-flower-add">
             <div className="container welcome-detail ">
-                <img src="http://massagequeen.vn/asset/newimg/logo-long-custom.png" />
+                <img src="./logo-long-custom.png" />
                 <div className="box-full-video" style={{ margin: " 2rem auto" }}>
-                    <video style={{ width: "80%", margin: "0 auto", display: "block" }} autoPlay={false}>
+                    <video style={{ width: "100%", margin: "0 auto", display: "block" }}   autoPlay={true}
+    muted // Ensure video can autoplay
+    controls // Optionally add controls for manual play
+  >
                         <source
-                            src="http://massagequeen.vn/asset/images/picture/video-queen.mp4"
+                            src="./video-queen.mp4"
                             type="video/mp4" />
-                        <source
-                            src="http://massagequeen.vn/asset/images/picture/video-queen.mp4"
-                            type="video/ogg" />
-                        Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="row welcome-detail-content">

@@ -9,7 +9,7 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-5">
                                 <img style={{ width: '252px', height: 'auto' }} loading="lazy" className="logo-footer"
-                                    src="http://massagequeen.vn/asset/images/picture/logo-queen-massage.png"
+                                    src="/logo-queen-massage.png"
                                     alt="Massage Queen" />
                                 <div className="footer-content mobile-hide">
                                     <p>CÔNG TY TNHH Massage Queen</p>
@@ -25,7 +25,7 @@ export default function Footer() {
                                     </li>
                                     <li>
                                         <i className="far fa-envelope"></i>
-                                        <a href="mailto:contact@hoakieu.vn"><span>phamkim158@gmail.com</span></a>
+                                        <a href="mailto:phamkim158@gmail.com"><span>phamkim158@gmail.com</span></a>
                                     </li>
                                     <li>
                                         <i className="fas fa-paper-plane"></i>
@@ -48,7 +48,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="http://massagequeen.vn/dich-vu/massage-vip.php">Vé VIP</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-vip">Vé VIP</a> </h5>
                                                 <a>
                                                     <div className="service-footer-price"> 500K/70 phút </div>
                                                 </a>
@@ -58,7 +58,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="http://massagequeen.vn/dich-vu/massage-super-vip-01.php">Vé SUPER VIP 01</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-01">Vé SUPER VIP 01</a> </h5>
                                                 <a>
                                                     <div className="service-footer-price"> 800K/80 phút </div>
                                                 </a>
@@ -68,7 +68,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="http://massagequeen.vn/dich-vu/massage-super-vip-02.php">Vé SUPER VIP 02</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-02">Vé SUPER VIP 02</a> </h5>
                                                 <a href="#sdfsd">
                                                     <div className="service-footer-price"> 1.000K/90 phút </div>
                                                 </a>
@@ -78,7 +78,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="http://massagequeen.vn/dich-vu/massage-super-vip-03.php">Vé SUPER VIP 03</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-03">Vé SUPER VIP 03</a> </h5>
                                                 <a >
                                                     <div className="service-footer-price"> 1.200K/100 phút </div>
                                                 </a>
@@ -88,7 +88,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="http://massagequeen.vn/dich-vu/massage-super-vip-04.php">Vé SUPER VIP 04</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-04">Vé SUPER VIP 04</a> </h5>
                                                 <a href="#sdfsd">
                                                     <div className="service-footer-price"> 1.500K/120 phút </div>
                                                 </a>
@@ -98,7 +98,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="http://massagequeen.vn/dich-vu/massage-super-queen.php">Vé SUPER VIP QUEEN</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-queen">Vé SUPER VIP QUEEN</a> </h5>
                                                 <a href="#sdfsd">
                                                     <div className="service-footer-price"> 2.000K/140 phút </div>
                                                 </a>
@@ -123,7 +123,7 @@ export default function Footer() {
                                 <h5><a href="/dich-vu">Dịch vụ</a></h5>
                                 <h5><a href="/khuyen-mai">Ưu đãi</a></h5>
                                 <h5><a href="/tin-tuc">Chia sẻ</a></h5>
-                                <h5><a data-toggle="modal" data-target=".modal-appointment" href="#sdfsd">Đặt phòng</a>
+                                <h5><a  href="/dich-vu">Đặt phòng</a>
                                 </h5>
                             </div>
                         </div>

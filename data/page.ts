@@ -4,6 +4,7 @@ export const common = {
 
 type Service = {
     img: string;
+    imgsub: string;
     name: string;
     detail: string[];
     time: number;
@@ -11,11 +12,26 @@ type Service = {
     note: string;
     para: string[];
 };
-
+export const allGalery = [
+    "/1.jpg",
+    "/2.jpg",
+    "/3.jpg",
+    "/4.jpg",
+    "/5.jpg",
+    "/6.jpg",
+    "/7.jpg",
+    "/8.jpg",
+    "/9.jpg",
+    "/10.jpg",
+    "/11.jpg",
+    "/12.jpg",
+    "/13.jpg",
+]
 // Sử dụng Record để định nghĩa listService
 export const listService: Record<string, Service> = {
     "massage-vip": {
-        img: "http://massagequeen.vn/asset/images/picture/room01.jpg",
+        img: "/1.jpg",
+        imgsub: "/ms1.png",
         name: "VIP",
         detail: [
             "Xông hơi thảo dược, ướt, khô.",
@@ -37,7 +53,8 @@ export const listService: Record<string, Service> = {
         ]
     },
     "massage-super-vip-01": {
-        img: "http://massagequeen.vn/asset/images/picture/room01.jpg",
+        img: "/2.jpg",
+        imgsub: "/ms2.png",
         name: "SUPER VIP 01",
         detail: [
             "Xông hơi thảo dược, ướt, khô.",
@@ -58,7 +75,8 @@ export const listService: Record<string, Service> = {
         ]
     },
     "massage-super-vip-02": {
-        img: "http://massagequeen.vn/asset/images/picture/room01.jpg",
+        img: "/3.jpg",
+        imgsub: "/ms3.png",
         name: "SUPER VIP 02",
         detail: [
             "Xông hơi thảo dược, ướt, khô.",
@@ -82,7 +100,8 @@ export const listService: Record<string, Service> = {
         ]
     },
     "massage-super-vip-03": {
-        img: "http://massagequeen.vn/asset/images/picture/room01.jpg",
+        img: "/4.jpg",
+        imgsub: "/ms4.png",
         name: "SUPER VIP 03",
         detail: [
             "Xông hơi thảo dược, ướt, khô.",
@@ -106,7 +125,8 @@ export const listService: Record<string, Service> = {
         ]
     },
     "massage-super-vip-04": {
-        img: "http://massagequeen.vn/asset/images/picture/room01.jpg",
+        img: "/5.jpg",
+        imgsub: "/ms5.png",
         name: "SUPER VIP 04",
         detail: [
             "Xông hơi thảo dược, ướt, khô.",
@@ -130,7 +150,8 @@ export const listService: Record<string, Service> = {
         ]
     },
     "massage-super-queen": {
-        img: "http://massagequeen.vn/asset/images/picture/room01.jpg",
+        img: "/6.jpg",
+        imgsub: "/ms5.png",
         name: "SUPER QUEEN",
         detail: [
             "Xông hơi thảo dược, ướt, khô.",

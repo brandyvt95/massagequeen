@@ -4,18 +4,18 @@ export default function Banner() {
   return (
     <>
        <div className="banner-services">
-        <img src="http://massagequeen.vn/asset/images/picture/banner-primary.png" />
+        <img src="./banner-primary.png" />
     </div>
     <div className="d-flex justify-content-center working-wrap">
         <div className="working-item">
-            <img src="http://massagequeen.vn/asset/images/icon_times.svg" alt="time-icon"/>
+            <img src="./icon_times.svg" alt="time-icon"/>
             <div className="">
                 <span>Thời gian mở cửa</span><br/>
                 <strong>(10:00 - 03:00 hàng ngày)</strong>
             </div>
         </div>
         <div className="working-item">
-            <img src="http://massagequeen.vn/asset/images/icon_loaction.svg" alt="location-icon"/>
+            <img src="./icon_loaction.svg" alt="location-icon"/>
             <div className="">
                 <span>Địa chỉ</span><br/>
                 <a target="_blank"
@@ -24,7 +24,7 @@ export default function Banner() {
             </div>
         </div>
         <div className="working-item">
-            <img src="http://massagequeen.vn/asset/images/icon_phone.svg" alt="phone-icon"/>
+            <img src="./icon_phone.svg" alt="phone-icon"/>
             <div className="">
                 <span>Hotline đặt phòng</span><br/>
                 <a href="tel:088 821 6666"><strong>088 821 6666</strong></a>

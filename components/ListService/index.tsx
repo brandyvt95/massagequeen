@@ -7,10 +7,10 @@ export default function ListService() {
                 <h1 className="h1-services-cat">Các gói dịch vụ</h1>
                 <ul className='ul-list-content-main'>
                     <li className="li-item-content-main"
-                        style={{ background: "url('http://massagequeen.vn/asset/images/post_type/services/services_bg_king.jpg') no-repeat top center" }}>
+                        style={{ background: "url('/services_bg_king.jpg') no-repeat top center" }}>
                         <div className="box-item-inner">
                             <div className="box-img">
-                                <img src="http://massagequeen.vn/asset/images/picture/room01.jpg" alt="VIP" />
+                                <img src="/2.jpg" alt="VIP" />
                             </div>
                             <div className="box-content">
                                 <h2 className="box-title">Gói massage <span>Vip</span></h2>
@@ -22,10 +22,10 @@ export default function ListService() {
                         </div>
                     </li>
                     <li className="li-item-content-main"
-                        style={{background:"url('http://massagequeen.vn/asset/images/post_type/services/services_bg_king.jpg') no-repeat top center"}}>
+                        style={{background:"url('/services_bg_king.jpg') no-repeat top center"}}>
                         <div className="box-item-inner">
                             <div className="box-img">
-                                <img src="http://massagequeen.vn/asset/images/picture/phong01.jpg" alt="Super Vip" />
+                                <img src="/8.jpg" alt="Super Vip" />
                             </div>
                             <div className="box-content">
                                 <h2 className="box-title">Gói massage <span>Super Vip 01</span></h2>
@@ -37,10 +37,10 @@ export default function ListService() {
                         </div>
                     </li>
                     <li className="li-item-content-main"
-                        style={{ background: "url('http://massagequeen.vn/asset/images/post_type/services/services_bg_king.jpg') no-repeat top center" }}>
+                        style={{ background: "url('/services_bg_king.jpg') no-repeat top center" }}>
                         <div className="box-item-inner">
                             <div className="box-img">
-                                <img src="http://massagequeen.vn/asset/images/picture/room02.jpg" alt="King" />
+                                <img src="/6.jpg" alt="King" />
                             </div>
                             <div className="box-content">
                                 <h2 className="box-title">Gói massage <span>Super Vip 02</span></h2>
@@ -52,10 +52,10 @@ export default function ListService() {
                         </div>
                     </li>
                     <li className="li-item-content-main"
-                        style={{ background: "url('http://massagequeen.vn/asset/images/post_type/services/services_bg_super_king.jpg') no-repeat top center" }}>
+                        style={{ background: "url('/services_bg_super_king.jpg') no-repeat top center" }}>
                         <div className="box-item-inner">
                             <div className="box-img">
-                                <img src="http://massagequeen.vn/asset/images/picture/fb-oo1.jpg" alt="Super Queen" />
+                                <img src="/11.jpg" alt="Super Queen" />
                             </div>
                             <div className="box-content">
                                 <h2 className="box-title">Gói massage <span>Super Vip 03</span></h2>
@@ -67,10 +67,10 @@ export default function ListService() {
                         </div>
                     </li>
                     <li className="li-item-content-main"
-                        style={{ background: "url('http://massagequeen.vn/asset/images/post_type/services/services_bg_super_king.jpg') no-repeat top center" }}>
+                        style={{ background: "url('/services_bg_super_king.jpg') no-repeat top center" }}>
                         <div className="box-item-inner">
                             <div className="box-img">
-                                <img src="http://massagequeen.vn/asset/images/picture/bg-booking.jpg" alt="Massage Lingam" />
+                                <img src="/fb-oo1.jpg" alt="Massage Lingam" />
                             </div>
                             <div className="box-content">
                                 <h2 className="box-title">Gói massage <span>Super Vip 04</span></h2>
@@ -82,10 +82,10 @@ export default function ListService() {
                         </div>
                     </li>
                     <li className="li-item-content-main"
-                        style={{ background: "url('http://massagequeen.vn/asset/images/post_type/services/services_bg_super_king.jpg') no-repeat top center" }}>
+                        style={{ background: "url('/services_bg_super_king.jpg') no-repeat top center" }}>
                         <div className="box-item-inner">
                             <div className="box-img">
-                                <img src="http://massagequeen.vn/asset/images/picture/bg-booking.jpg" alt="Massage Lingam" />
+                                <img src="/bg-booking.jpg" alt="Massage Lingam" />
                             </div>
                             <div className="box-content">
                                 <h2 className="box-title">Gói massage <span>Super Queen</span></h2>

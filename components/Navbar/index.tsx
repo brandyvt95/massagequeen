@@ -7,7 +7,7 @@ export default function Navbar() {
                 <nav className="navbar navbar-expand-md ">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="/">
-                            <img src="http://massagequeen.vn/asset/images/picture/logo-massage-queen-red.png"
+                            <img src="/logo-massage-queen-red.png"
                                 alt="Massage Queen" />
                            {/*  <h1 style="display: none">Massage Queen Spa & Massage - Khoảnh khắc ngọt ngào</h1> */}
                         </a>
@@ -36,7 +36,7 @@ export default function Navbar() {
                             </ul>
                             <div className="d-flex phone-top mobile-hide">
                                 <img style={{width: "24px", height: "24px"}}
-                                    src="http://massagequeen.vn/asset/images/icon_phone_top_menu.svg" alt="phone-icon" />
+                                    src="/icon_phone_top_menu.svg" alt="phone-icon" />
                                 <span>088 821 6666</span>
                             </div>
                         </div>

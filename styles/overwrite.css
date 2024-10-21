@@ -51,6 +51,7 @@ header .navbar {
     
 }
 .modal-content {
+    border: unset !important;
     width: 100vw !important; 
     margin:  auto !important;
     background-color:transparent!important;
@@ -417,7 +418,7 @@ margin: 0 16px;
     margin: auto;
 }
 .services-full-box-content {
-   
+    padding-bottom: 5rem;
 }
 
 .services-full-box-content .box-readmore {
