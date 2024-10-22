@@ -1,88 +1,26 @@
-"use client"
-
-import { useParams } from 'next/navigation';
-import { listService, allGalery } from '../../../data/page';
-import useModalStore from '../../../store/store';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 
 
-// import required modules
-import { Autoplay, Navigation } from 'swiper/modules';
+import type { Metadata } from "next";
+import SectionSlug from '@/components/SectionSlug';
+
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const slug = params.slug;  // Lấy slug từ params
+  const title = `Gói ${slug} - Massage thư giãn cho Nam giới`;
+  const description = "Massage thư giãn cho Nam giới hấp dẫn đạt chuẩn TOP tại Sài Thành.";
+  
+  return {
+    title,
+    description,
+  };
+}
+
 const DetailService = () => {
-  const { slug } = useParams<{ slug: string }>();
-
-  const service = slug ? listService[slug] : null;
-
-  const { toggleModal } = useModalStore();
 
   return (
     <div>
-      <div className="services-full-box-details-main bg-flower-add">
-        <div className="services-full-box-details-main-inner">
-          <Swiper
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            navigation={true}
-            modules={[Autoplay, Navigation]}
-            className="mySwiperSlug box-img">
-            {allGalery.map((item, index) => (
-
-              <SwiperSlide key={index}>
-                <img src={item}
-                  alt="Super Vip" /></SwiperSlide>
-            ))}
-
-          </Swiper>
-          <div className="box-content">
-            <div className="box-title">vé <span>{service?.name}</span></div>
-            <div className="box-list-menu">
-
-              <ul className="ul-list-services-includes">
-                {service?.detail.map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="box-time">Thời gian: {service?.time} phút</div>
-            <div className="box-price">{service?.price}</div>
-            <div className='box-note'>Giá vé chưa bao gồm tiền tip, tiền tip được quy định tối thiểu bằng tiền vé</div>
-            <div className="box-book">
-              <a data-toggle="modal" data-target=".modal-appointment" href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
-                className="btn-animate">Đặt lịch ngay</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="services-full-box-content bg-flower-add">
-        <div className="container">
-          <div className="col-lg-12 col-md-12">
-            <div className="box-content-top">
-              <div className="box-content-summary">
-                <h1 className="box-title">
-                  Đắm Mình Trong dịch vụ massage
-                  <span>{service?.name}</span>
-                </h1>
-                {service?.para.map((item, index) => (
-                  <h3 key={index} className="content-summary">{item}</h3>
-                ))}
-
-              </div>
-              <div className="box-img">
-                <img src={service?.imgsub}
-                  alt="Super Vip" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <SectionSlug  />
     </div>
   );
 };

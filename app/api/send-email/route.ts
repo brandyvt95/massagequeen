@@ -52,7 +52,7 @@ export async function POST(request: Request) {
         ...mailOptions,
         ...generateEmailContent(data),
         subject: "Thông tin khách hàng từ Website MassageQueen.vn",
-        cc: "creatiflow.danny@gmail.com",
+        cc: "phamkim158@gmail.com",
       });
   
       return NextResponse.json({ message: "Data received successfully" }, { status: 200 });

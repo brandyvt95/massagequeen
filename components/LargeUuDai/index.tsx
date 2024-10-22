@@ -1,10 +1,12 @@
+"use client"
 import React from 'react'
-
+import useModalStore from '../../store/store';
 export default function LargeUuDai() {
+    const { isOpen, toggleModal } = useModalStore();
     return (
         <>
             <div className="banner-services">
-                <img src="http://massagequeen.vn/asset/images/picture/BANNER-VOUCHERS.png" />
+                <img src="/BANNER-VOUCHERS.png" />
             </div>
             <div className="single-campaign-wrapper">
                 <div className="container">
@@ -56,7 +58,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                             <div>
                                                                 <a data-code="KTSUPKING"
-                                                                    href="khai-truong-hoa-kieu-spa-massage-giam-30-gia-ve-massage-vip.html"
+                                                                  
                                                                     className="copy-code" data-toggle="tooltip"
                                                                     data-placement="bottom" title="Copy Code">
                                                                     <i className="far fa-clone"></i>
@@ -66,7 +68,8 @@ export default function LargeUuDai() {
                                                     </div>
 
                                                     <a
-                                                        id="open-modal-vouchers"
+                                                     href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
+                                                    
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTSUPKING</span>
                                                 </div>
@@ -106,7 +109,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                             <div>
                                                                 <a data-code="KTKING"
-                                                                    href="khai-truong-hoa-kieu-spa-massage-giam-30-gia-ve-massage-vip.html"
+                                                                   
                                                                     className="copy-code" data-toggle="tooltip"
                                                                     data-placement="bottom" title="Copy Code">
                                                                     <i className="far fa-clone"></i>
@@ -114,7 +117,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <a id="open-modal-vouchers"
+                                                    <a  href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTKING</span>
                                                 </div>
@@ -154,7 +157,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                             <div>
                                                                 <a data-code="KTSUPVIP"
-                                                                    href="khai-truong-hoa-kieu-spa-massage-giam-30-gia-ve-massage-vip.html"
+                                                                 
                                                                     className="copy-code" data-toggle="tooltip"
                                                                     data-placement="bottom" title="Copy Code">
                                                                     <i className="far fa-clone"></i>
@@ -162,7 +165,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <a id="open-modal-vouchers"
+                                                    <a  href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTSUPVIP</span>
                                                 </div>
@@ -202,7 +205,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                             <div>
                                                                 <a data-code="KTVIP"
-                                                                    href="khai-truong-hoa-kieu-spa-massage-giam-30-gia-ve-massage-vip.html"
+                                                                   
                                                                     className="copy-code" data-toggle="tooltip"
                                                                     data-placement="bottom" title="Copy Code">
                                                                     <i className="far fa-clone"></i>
@@ -210,7 +213,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <a id="open-modal-vouchers"
+                                                    <a  href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTVIP</span>
                                                 </div>
@@ -225,38 +228,38 @@ export default function LargeUuDai() {
                                     <div className="most-post-list similar-campaign-div">
                                         <ul>
                                             <li>
-                                                <a href="">
-                                                    <img loading="lazy" src="http://massagequeen.vn/asset/images/picture/SALE-ALL-VIP.png"
+                                                <a href="/dich-vu">
+                                                    <img loading="lazy" src="/SALE-ALL-VIP.png"
                                                         alt="Giảm giá 20% Trải nghiệm Massage Queen" />
                                                 </a>
-                                                <a className="campaign-title" href="">
+                                                <a className="campaign-title" href="/dich-vu">
                                                     Giảm giá 20% Trải nghiệm Massage Queen </a>
                                             </li>
                                             <li>
-                                                <a href="">
-                                                    <img loading="lazy" src="http://massagequeen.vn/asset/images/picture/SALE-ALL-VIP.png"
+                                                <a href="/dich-vu">
+                                                    <img loading="lazy" src="/SALE-ALL-VIP.png"
                                                         alt="Giảm giá 20% Trải nghiệm Massage Queen" />
                                                 </a>
-                                                <a className="campaign-title" href="">
+                                                <a className="campaign-title" href="/dich-vu">
                                                     Giảm 20% giá Vé Vip </a>
                                             </li>
                                             <li>
                                                 <a
-                                                    href="">
-                                                    <img loading="lazy" src="http://massagequeen.vn/asset/images/picture/SALE-ALL-VIP.png"
+                                                    href="/dich-vu">
+                                                    <img loading="lazy" src="/SALE-ALL-VIP.png"
                                                         alt="Giảm giá 20% Trải nghiệm Massage Queen" />
                                                 </a>
                                                 <a className="campaign-title"
-                                                    href="">
+                                                    href="/dich-vu">
                                                     Giảm 20% giá Vé SUPER VIP </a>
                                             </li>
                                             <li>
-                                                <a href="khai-truong-hoa-kieu-spa-massage-giam-30-gia-ve-massage-standard.html">
-                                                    <img loading="lazy" src="	http://massagequeen.vn/asset/images/picture/SALE-ALL-VOUCHER.png"
+                                                <a href="/">
+                                                    <img loading="lazy" src="/SALE-ALL-VOUCHER.png"
                                                         alt="Giảm giá 20% Trải nghiệm Massage Queen" />
                                                 </a>
                                                 <a className="campaign-title"
-                                                    href="">
+                                                    href="/dich-vu">
                                                     Giảm 20% giá Vé QUEEN ROOM</a>
                                             </li>
                                         </ul>
