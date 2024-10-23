@@ -2,7 +2,7 @@
 import React from 'react'
 import useModalStore from '../../store/store';
 export default function LargeUuDai() {
-    const { isOpen, toggleModal } = useModalStore();
+    const {  toggleModal } = useModalStore();
     return (
         <>
             <div className="banner-services">
