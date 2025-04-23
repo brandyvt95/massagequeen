@@ -21,7 +21,7 @@ export default function ListService() {
                             </div>
                         </div>
                     </li>
-                    <li className="li-item-content-main"
+                 {/*    <li className="li-item-content-main"
                         style={{background:"url('/services_bg_king.jpg') no-repeat top center"}}>
                         <div className="box-item-inner">
                             <div className="box-img">
@@ -35,7 +35,7 @@ export default function ListService() {
                                 <div className="box-readmore"> <a href="/dich-vu/massage-super-vip-01">Xem chi tiết</a></div>
                             </div>
                         </div>
-                    </li>
+                    </li> */}
                     <li className="li-item-content-main"
                         style={{ background: "url('/services_bg_king.jpg') no-repeat top center" }}>
                         <div className="box-item-inner">
@@ -43,7 +43,7 @@ export default function ListService() {
                                 <img src="/6.jpg" alt="King" />
                             </div>
                             <div className="box-content">
-                                <h2 className="box-title">Gói massage <span>Super Vip 02</span></h2>
+                                <h2 className="box-title">Gói massage <br/><span>VIP NURU 1</span></h2>
                                 <div className="box-price"> 1,000,000 VND</div>
                                 <div className="box-note">Giá vé chưa bao gồm tiền tip (tip = tick)</div>
                                 <div className="box-time">Thời gian: 90 phút</div>
@@ -58,7 +58,7 @@ export default function ListService() {
                                 <img src="/11.jpg" alt="Super Queen" />
                             </div>
                             <div className="box-content">
-                                <h2 className="box-title">Gói massage <span>Super Vip 03</span></h2>
+                                <h2 className="box-title">Gói massage <br/><span>VIP NURU 2</span></h2>
                                 <div className="box-price"> 1,200,000 VND</div>
                                 <div className="box-note">Giá vé chưa bao gồm tiền tip (tip = tick)</div>
                                 <div className="box-time">Thời gian: 100 phút</div>
@@ -73,7 +73,7 @@ export default function ListService() {
                                 <img src="/fb-oo1.jpg" alt="Massage Lingam" />
                             </div>
                             <div className="box-content">
-                                <h2 className="box-title">Gói massage <span>Super Vip 04</span></h2>
+                                <h2 className="box-title">Gói massage<br/><span>VIP QUEEN</span></h2>
                                 <div className="box-price"> 1,500,000 VND</div>
                                 <div className="box-note">Giá vé chưa bao gồm tiền tip (tip = tick)</div>
                                 <div className="box-time">Thời gian: 120 phút</div>
@@ -88,7 +88,7 @@ export default function ListService() {
                                 <img src="/bg-booking.jpg" alt="Massage Lingam" />
                             </div>
                             <div className="box-content">
-                                <h2 className="box-title">Gói massage <span>Super Queen</span></h2>
+                                <h2 className="box-title">Gói massage <br/><span>VVIP QUEEN</span></h2>
                                 <div className="box-price"> 2,000,000 VND</div>
                                 <div className="box-note">Giá vé chưa bao gồm tiền tip (tip = tick)</div>
                                 <div className="box-time">Thời gian: 140 phút</div>

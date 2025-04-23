@@ -36,6 +36,7 @@ export default function Vouchers() {
             <div className="promotions-wrap normal-wrap">
                 <div className="container positionrelative swiper-vouchers-checkid">
                     <h2>
+                   
                         Ưu&nbsp;đãi Massage&nbsp;Queen
                         <a href="/khuyen-mai" className="view-all-btn">Xem tất cả</a>
                     </h2>
@@ -54,7 +55,7 @@ export default function Vouchers() {
                                         </div>
                                         <div className="promotion-info">
                                             <a href="/khuyen-mai" className="btn-red">
-                                                Lấy code giảm giá
+                                                 XEM HÌNH VÀ ƯU ĐÃI
                                             </a>
                                         </div>
                                     </div>
@@ -72,7 +73,7 @@ export default function Vouchers() {
                                         </div>
                                         <div className="promotion-info">
                                             <a href="/khuyen-mai" className="btn-red">
-                                                Lấy code giảm giá
+                                                 XEM HÌNH VÀ ƯU ĐÃI
                                             </a>
                                         </div>
                                     </div>
@@ -90,7 +91,7 @@ export default function Vouchers() {
                                         </div>
                                         <div className="promotion-info">
                                             <a href="/khuyen-mai" className="btn-red">
-                                                Lấy code giảm giá
+                                                 XEM HÌNH VÀ ƯU ĐÃI
                                             </a>
                                         </div>
                                     </div>
@@ -108,7 +109,7 @@ export default function Vouchers() {
                                         </div>
                                         <div className="promotion-info">
                                             <a href="/khuyen-mai" className="btn-red">
-                                                Lấy code giảm giá
+                                                 XEM HÌNH VÀ ƯU ĐÃI
                                             </a>
                                         </div>
                                     </div>
@@ -126,7 +127,7 @@ export default function Vouchers() {
                                         </div>
                                         <div className="promotion-info">
                                             <a href="/khuyen-mai" className="btn-red">
-                                                Lấy code giảm giá
+                                                 XEM HÌNH VÀ ƯU ĐÃI
                                             </a>
                                         </div>
                                     </div>

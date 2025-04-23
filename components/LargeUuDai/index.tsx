@@ -42,10 +42,9 @@ export default function LargeUuDai() {
                                                         <i className="fas fa-exclamation-circle"></i>
                                                         <span className="grey">Điều kiện: </span>
                                                         <div className="rule-box">
-                                                            <div className='rule-item'>Khung giờ vàng từ 10h cho tới 14h mỗi ngày
+                                                            <div className='rule-item'>XEM FULL HÌNH KTV VÀ NHẬN CODE ƯU ĐÃI
                                                             </div>
-                                                            <div className='rule-item'>Khung giờ vàng từ 17h cho tới 20h mỗi ngày
-                                                            </div>
+                                                           
                                                         </div>
                                                     </div>
                                                 </div>
@@ -67,8 +66,7 @@ export default function LargeUuDai() {
                                                         </div>
                                                     </div>
 
-                                                    <a
-                                                     href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
+                                                    <a href="https://t.me/massagequeen93"/*   onClick={(e) => { e.preventDefault(); toggleModal(); }} */
                                                     
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTSUPKING</span>
@@ -93,9 +91,7 @@ export default function LargeUuDai() {
                                                         <i className="fas fa-exclamation-circle"></i>
                                                         <span className="grey">Điều kiện: </span>
                                                         <div className="rule-box">
-                                                            <div className='rule-item'>Khung giờ vàng từ 10h cho tới 14h mỗi ngày
-                                                            </div>
-                                                            <div className='rule-item'>Khung giờ vàng từ 17h cho tới 20h mỗi ngày
+                                                            <div className='rule-item'>XEM FULL HÌNH KTV VÀ NHẬN CODE ƯU ĐÃI
                                                             </div>
                                                         </div>
                                                     </div>
@@ -117,7 +113,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <a  href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
+                                                    <a  href="https://t.me/massagequeen93" /* onClick={(e) => { e.preventDefault(); toggleModal(); }} */
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTKING</span>
                                                 </div>
@@ -141,9 +137,7 @@ export default function LargeUuDai() {
                                                         <i className="fas fa-exclamation-circle"></i>
                                                         <span className="grey">Điều kiện: </span>
                                                         <div className="rule-box">
-                                                            <div className='rule-item'>Khung giờ vàng từ 10h cho tới 14h mỗi ngày
-                                                            </div>
-                                                            <div className='rule-item'>Khung giờ vàng từ 17h cho tới 20h mỗi ngày
+                                                            <div className='rule-item'>XEM FULL HÌNH KTV VÀ NHẬN CODE ƯU ĐÃI
                                                             </div>
                                                         </div>
                                                     </div>
@@ -165,7 +159,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <a  href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
+                                                    <a  href="https://t.me/massagequeen93" /* onClick={(e) => { e.preventDefault(); toggleModal(); }} */
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTSUPVIP</span>
                                                 </div>
@@ -189,9 +183,7 @@ export default function LargeUuDai() {
                                                         <i className="fas fa-exclamation-circle"></i>
                                                         <span className="grey">Điều kiện: </span>
                                                         <div className="rule-box">
-                                                            <div className='rule-item'>Khung giờ vàng từ 10h cho tới 14h mỗi ngày
-                                                            </div>
-                                                            <div className='rule-item'>Khung giờ vàng từ 17h cho tới 20h mỗi ngày
+                                                            <div className='rule-item'>XEM FULL HÌNH KTV VÀ NHẬN CODE ƯU ĐÃI
                                                             </div>
                                                         </div>
                                                     </div>
@@ -213,7 +205,7 @@ export default function LargeUuDai() {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <a  href="#" onClick={(e) => { e.preventDefault(); toggleModal(); }}
+                                                    <a  href="https://t.me/massagequeen93" /* onClick={(e) => { e.preventDefault(); toggleModal(); }} */
                                                         className="btn-red">Đặt ngay</a>
                                                     <span className="hidden-code">KTVIP</span>
                                                 </div>

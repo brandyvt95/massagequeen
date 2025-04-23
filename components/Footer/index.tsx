@@ -55,7 +55,7 @@ export default function Footer() {
                                             </div>
                                         </div>
                                     </li>
-                                    <li>
+                                   {/*  <li>
                                         <div className="media">
                                             <div className="media-body">
                                                 <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-01">Vé SUPER VIP 01</a> </h5>
@@ -64,11 +64,11 @@ export default function Footer() {
                                                 </a>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-02">Vé SUPER VIP 02</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-02">Vé VIP NURU 1</a> </h5>
                                                 <a href="#sdfsd">
                                                     <div className="service-footer-price"> 1.000K/90 phút </div>
                                                 </a>
@@ -78,7 +78,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-03">Vé SUPER VIP 03</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-03">Vé VIP NURU 2</a> </h5>
                                                 <a >
                                                     <div className="service-footer-price"> 1.200K/100 phút </div>
                                                 </a>
@@ -88,7 +88,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-04">Vé SUPER VIP 04</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-vip-04">Vé VIP QUEEN</a> </h5>
                                                 <a href="#sdfsd">
                                                     <div className="service-footer-price"> 1.500K/120 phút </div>
                                                 </a>
@@ -98,7 +98,7 @@ export default function Footer() {
                                     <li>
                                         <div className="media">
                                             <div className="media-body">
-                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-queen">Vé SUPER VIP QUEEN</a> </h5>
+                                                <h5 className="mt-0"> <a href="/dich-vu/massage-super-queen">Vé VVIP QUEEN</a> </h5>
                                                 <a href="#sdfsd">
                                                     <div className="service-footer-price"> 2.000K/140 phút </div>
                                                 </a>
