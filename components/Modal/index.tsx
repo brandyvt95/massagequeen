@@ -13,7 +13,7 @@ export default function Modal() {
     const listDetail = {
         "massage-vip": {
             name: "Vé VIP",
-            price: "590K",
+            price: "500K",
             time: "/70 phút"
         },
         "massage-super-vip-01": {
@@ -194,23 +194,23 @@ export default function Modal() {
                                                     <li >
                                                         <span className="small-title">Vé VIP</span>
                                                         <span className="float-right small-info">
-                                                            <span className="green">590K</span><span>/70 phút</span>
+                                                            <span className="green">500K</span><span>/70 phút</span>
                                                         </span>
                                                     </li>
-                                                    <li >
-                                                        <span className="small-title">Vé SUPER 01</span>
+                                                  {/*   <li >
+                                                        <span className="small-title">Vé VIP NURU 1</span>
                                                         <span className="float-right small-info">
                                                             <span className="green">800K</span><span>/80 phút</span>
                                                         </span>
-                                                    </li>
+                                                    </li> */}
                                                     <li >
-                                                        <span className="small-title">Vé SUPER 02</span>
+                                                        <span className="small-title">Vé VIP NURU 1</span>
                                                         <span className="float-right small-info">
                                                             <span className="green">1.000K</span><span>/90 phút</span>
                                                         </span>
                                                     </li>
                                                     <li>
-                                                        <span className="small-title">Vé SUPER 03</span>
+                                                        <span className="small-title">Vé VIP NURU 2</span>
                                                         <span className="float-right small-info">
                                                             <span className="green">1.200K</span><span>/100 phút</span>
                                                         </span>
@@ -222,7 +222,7 @@ export default function Modal() {
                                                         </span>
                                                     </li>
                                                     <li >
-                                                        <span className="small-title">Vé QUEEN</span>
+                                                        <span className="small-title">Vé VVIP QUEEN</span>
                                                         <span className="float-right small-info">
                                                             <span className="green">2.000K</span><span>/140 phút</span>
                                                         </span>
